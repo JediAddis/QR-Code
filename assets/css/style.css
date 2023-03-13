@@ -1,13 +1,18 @@
+/*Importation police d'écriture*/
+@font-face {
+    font-family: outfit;
+    src: url(../font/Outfit/Outfit-VariableFont_wght.ttf);
+}
 body{
-    background-color: hsl(213, 17%, 77%);
+    background-color: hsl(212, 45%, 89%);
 }
 .card{
-    background-color: aliceblue;
+    background-color: hsl(0, 0%, 100%);
     border-radius: 15px;
     margin: auto ;
     margin-top: 150px ;
     width: 230px ;
-    box-shadow: 10px 5px 5px rgba(45, 45, 45, 0.2);
+    /*box-shadow: 10px 5px 5px rgba(45, 45, 45, 0.2);*/
     padding-block: 10px ;
 }
 .card img {
@@ -18,18 +23,34 @@ body{
     margin-right: auto;
     margin-top: auto;
 }
-h3 {
+h1 {
+    color: hsl(218, 44%, 22%);
     text-align: center;
     font-size: 14px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: outfit;
     padding: 5px ;
 }
 p{
     text-align: center;
+    color: hsl(220, 15%, 55%);
     font-size: 12px;
     padding: 5px 10px 10px 10px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: grey;
+    font-family: outfit;
 }
-.attribution { font-size: 11px; text-align: center; margin-top: 8px; }
-.attribution a { color: hsl(269, 97%, 31%); font-weight: 600; text-decoration: none;}
+.attribution { 
+    font-size: 12px; 
+    text-align: center; 
+    margin-top: 8px;
+    font-family: outfit;
+    margin-top: 10px;
+}
+.attribution a { 
+    color: hsl(288, 96%, 45%); 
+    font-weight: 600; 
+    text-decoration: none;
+}
+
+/*Responsive*/
+@media (min-width : 375px) {
+    
+}
